@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+<script src="vue.js"></script>
+<script src="vue.router.js"></script>
+<script>
+		Vue.component(name, {
+			template: '',
+			props:[''],
+			data(){
+				return {
+				}
+			}
+		})
+		var bus = new Vue()
+		Vue.component('lee', {
+			template: '#lee',
+			data(){
+				return {
+				}
+			},
+			mounted(){
+			   bus.$on('lee1',(a)=>{
+			   	this.num = a
+			   })
+			},
+			methods:{
+				btn(){
+					this.num++
+					bus.$emit('lee',this.num)
+				}
+			}
+		})
+		Vue.component(name, {
+			template: '',
+			props:[''],
+			data(){
+				return {
+				}
+			}
+		})
+		var bus = new Vue()
+		Vue.component('lee', {
+			template: '#lee',
+			data(){
+				return {
+				}
+			},
+			mounted(){
+			   bus.$on('lee1',(a)=>{
+			   	this.num = a
+			   })
+			},
+			methods:{
+				btn(){
+					this.num++
+					bus.$emit('lee',this.num)
+				}
+			}
+		})
+		Vue.component(name, {
+			template: '',
+			props:[''],
+			data(){
+				return {
+				}
+			}
+		})
+		var bus = new Vue()
+		Vue.component('lee', {
+			template: '#lee',
+			data(){
+				return {
+				}
+			},
+			mounted(){
+			   bus.$on('lee1',(a)=>{
+			   	this.num = a
+			   })
+			},
+			methods:{
+				btn(){
+					this.num++
+					bus.$emit('lee',this.num)
+				}
+			}
+		})
+		Vue.component(name, {
+			template: '',
+			props:[''],
+			data(){
+				return {
+				}
+			}
+		})
+		var bus = new Vue()
+		Vue.component('lee', {
+			template: '#lee',
+			data(){
+				return {
+				}
+			},
+			mounted(){
+			   bus.$on('lee1',(a)=>{
+			   	this.num = a
+			   })
+			},
+			methods:{
+				btn(){
+					this.num++
+					bus.$emit('lee',this.num)
+				}
+			}
+		})
+		Vue.component(name, {
+			template: '',
+			props:[''],
+			data(){
+				return {
+				}
+			}
+		})
+		var bus = new Vue()
+		Vue.component('lee', {
+			template: '#lee',
+			data(){
+				return {
+				}
+			},
+			mounted(){
+			   bus.$on('lee1',(a)=>{
+			   	this.num = a
+			   })
+			},
+			methods:{
+				btn(){
+					this.num++
+					bus.$emit('lee',this.num)
+				}
+			}
+		})
+</script>
+</html>
